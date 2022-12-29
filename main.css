@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+body{
+	font-family: 'Lato';
+	background: #bafffd;
+	background-size: cover;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+
+}
+.wrapper{
+	margin-top: 260px;
+	width: 500px;
+	height: 500px;
+	background: #f9f6ee;
+	border-radius: 10px;
+	box-sizing: border-box;
+}
+.header{
+	font-size: 27px;
+	font-weight: 400;
+	position: relative;
+	top: 30px;
+	color: 2d3436;
+	padding: 20px 40px;
+}
+.register{
+	font-size: 15px;
+	position: absolute;
+	top: 615px;
+	left: 915px;
+	color: 2d3436;
+}
+
+
+.google{
+	position: absolute;
+	top: 650px;
+	left: 915px;
+	transition: .5s;
+	cursor: pointer;
+}
+.google :hover{
+	box-shadow: 0px 0px 10px -2px rgba(122, 122, 122, 0.18);
+}
+ .fb{
+
+ 	position: absolute;
+	top: 650px;
+	left: 970px;
+	transition: .5s;
+	cursor: pointer;
+ }
+ .fb :hover{
+	box-shadow: 0px 0px 10px -2px rgba(122, 122, 122, 0.18);
+}
+ .terms{
+	font-size: 10px;
+	position: absolute;
+	top: 700px;
+	left: 799px;
+	color: 2d3436;
+
+ }
+ .credential{
+ 	padding:  60px 40px;
+ }
+ .credential .label{
+ 	font-size: 21px;
+ 	margin-top: 3px 0;
+ 	color: #2d3436;
+
+ }
+ .credential input{
+ 	height: 55px;
+ 	width: 400px;
+ 	border-radius: 2px;
+ 	outline: none;
+ 	padding: 0 10px;
+ 	font-size: 11px;
+ 	border: 1px solid silver;
+ 	background: #fac5c8;
+ 	border-radius:5px ;
+ }
+ .credential input:focus{
+ 	transition: .3s;
+ 	border: 1px solid #999999; 
+ }
+ .credential button{
+ 	margin-top: 35px;
+ 	height: 60px;
+ 	width: 420px;
+ 	font-size: 18px;
+ 	
+ 	cursor: pointer;
+ 	outline: none;
+ 	color: white;
+ 	border: 1px solid #999999;
+ 	
+ 	border-radius: 4px;
+ 	background: #fb7e89;
+ 	transition: .5s;
+ 	
+
+ }
+ .credential button:hover{
+ 	background: #ff99a7;
+ 	transition: .5s;
+ }
+.traffix{
+	position: absolute;
+	top: 140px;
+	left: 795px;
+	transition: .5s;
+	cursor: pointer;
+}
+		
+	
+ 
